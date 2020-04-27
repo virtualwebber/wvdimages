@@ -21,9 +21,9 @@ $TemplateUri = "https://raw.githubusercontent.com/geekydrewbie/wvdimages/master/
 
 #AIB needs rights to Resource Group(s) using its SPN
 #Create a new Resource Group if not already existing must be in the US whilst its in preview.
-#New-AzResourceGroup -Name $RG -Location 'East US'
+New-AzResourceGroup -Name $RG -Location 'West Europe'
 #Provide "contributor" rights to the RG for the Service Principle
-#New-AzRoleAssignment -RoleDefinitionName "Contributor" -ApplicationId "cf32a0cc-373c-47c9-9156-0db11f6a6dfc" -ResourceGroupName "$RG"
+New-AzRoleAssignment -RoleDefinitionName "Contributor" -ApplicationId "cf32a0cc-373c-47c9-9156-0db11f6a6dfc" -ResourceGroupName "$RG"
 
 #Start Image Deployment
 #Build Image Template
