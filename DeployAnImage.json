@@ -30,7 +30,7 @@
 		},
 		"SIGImageDefinitionId": {
 			"type": "string",
-			"defaultValue": "uks_sharedimagegallery",
+			"defaultValue": "/subscriptions/d71d6a4a-72e6-475f-acaa-b3fa41c2c21b/resourceGroups/rg_uks_sharedimagegallery/providers/Microsoft.Compute/galleries/uks_sharedimagegallery/images/id_windows",
 			"metadata": {
 				"description": "Id of Shared Image Gallery to distribute image to, eg: /subscriptions/<subscriptionID>/resourceGroups/<SIG resourcegroup>/providers/Microsoft.Compute/galleries/<SIG name>/images/<image definition>"
 			}
