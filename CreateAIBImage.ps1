@@ -6,7 +6,7 @@ $TemplateUri = "https://raw.githubusercontent.com/geekydrewbie/wvdimages/master/
 
 #Install AZ if not already installed and login
 # Install-Module Az -Force
-Connect-AzAccount
+#Connect-AzAccount
 
 # Regsiter the feature whilst its in preview
 # Register-AzProviderFeature -ProviderNamespace Microsoft.VirtualMachineImages -FeatureName VirtualMachineTemplatePreview
